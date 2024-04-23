@@ -20,7 +20,7 @@ OverChargeAlert is a Python script for monitoring battery charge levels and disp
 2. Create and activate a virtual environment (recommended to ensure a clean and isolated environment):
    - **For Windows:**
      ```bash
-     python -m venv over-charge-alert
+     python -m venv over-charge-alert-env
      .\over-charge-alert-env\Scripts\activate
      ```
 
