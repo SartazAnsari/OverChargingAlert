@@ -10,6 +10,9 @@ OverChargeAlert is a Python script for monitoring battery charge levels and disp
 - Creates a lock file in the same path to avoid running duplicate scripts
 - Exiting from system tray or notification area will delete the lock file to ensure proper cleanup
 
+## Prerequisites
+*1.* **Python 3.x:** Download and install from [python.org](https://www.python.org/).
+
 ## Setup
 1. Clone the repository to your local machine:
    ```bash
