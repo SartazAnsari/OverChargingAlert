@@ -1,14 +1,16 @@
 # OverChargeAlert
 
 ## Description
-OverChargeAlert is a Python script for monitoring battery charge levels and displaying notifications when the battery is fully charged or over a specified threshold. Its purpose is to prevent overcharging of laptop batteries, helping users protect their battery health and prolong its lifespan.
+OverChargeAlert is a Python script for monitoring battery charge levels and displaying notifications when the battery is fully charged or over a specified threshold. Its purpose is to prevent overcharging of laptop batteries, helping users protect their battery health and prolong its lifespan. The script runs in the background and provides real-time updates on battery status.
 
 ## Features
 - Monitors battery charge levels in real-time
-- Displays toast notifications for battery alerts
+- Displays toast notifications for battery alerts, including:
+  - Notifications when the battery is fully charged.
+  - Alerts when the battery charge exceeds a specified threshold (default: 90%).
+  - Notifications for plug/unplug events, including battery usage and charging time.
 - Runs in the background and checks battery status periodically
-- Creates a lock file in the same path to avoid running duplicate scripts
-- Exiting from system tray or notification area will delete the lock file to ensure proper cleanup
+- Provides a system tray icon for easy access to battery status and manual checks.
 
 ## Prerequisites
 *1.* **Python 3.x:** Download and install from [python.org](https://www.python.org/).
